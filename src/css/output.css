@@ -554,22 +554,78 @@ video {
   display: none;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
-.text-red-500 {
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity, 1));
 }
 
-.text-yellow-500 {
-  --tw-text-opacity: 1;
-  color: rgb(234 179 8 / var(--tw-text-opacity, 1));
+.font-vazir {
+  font-family: Vazir;
 }
 
-.text-green-500 {
-  --tw-text-opacity: 1;
-  color: rgb(34 197 94 / var(--tw-text-opacity, 1));
+@font-face {
+  font-family: "Vazir";
+
+  src: url(./../Font/Vazir/Vazir-Bold.woff2) format("woff2");
+
+  src: url(./../Font/Vazir/Vazir-Bold.woff) format("woff");
+
+  src: url(./../Font/Vazir/Vazir-Bold.ttf) format("TrueType");
+
+  font-weight: bold;
+
+  font-family: "Vazir";
+
+  src: url(./../Font/Vazir/Vazir.woff2) format("woff2");
+
+  src: url(./../Font/Vazir/Vazir.woff) format("woff");
+
+  src: url(./../Font/Vazir/Vazir.ttf) format("TrueType");
+
+  font-weight: normal;
+
+  font-family: "Vazir";
+
+  src: url(./../Font/Vazir/Vazir-black.woff2) format("woff2");
+
+  src: url(./../Font/Vazir/Vazir-black.woff) format("woff");
+
+  src: url(./../Font/Vazir/Vazir-black.ttf) format("TrueType");
+
+  font-weight: 900;
+
+  font-family: "Vazir";
+
+  src: url(./../Font/Vazir/Vazir-medium.woff2) format("woff2");
+
+  src: url(./../Font/Vazir/Vazir-medium.woff) format("woff");
+
+  src: url(./../Font/Vazir/Vazir-medium.ttf) format("TrueType");
+
+  font-weight: 500;
+
+  font-family: "Vazir";
+
+  src: url(./../Font/Vazir/Vazir-Light.woff2) format("woff2");
+
+  src: url(./../Font/Vazir/Vazir-Light.woff) format("woff");
+
+  src: url(./../Font/Vazir/Vazir-Light.ttf) format("TrueType");
+
+  font-weight: 300;
+
+  font-family: "Vazir";
+
+  src: url(./../Font/Vazir/Vazir-Thin.woff2) format("woff2");
+
+  src: url(./../Font/Vazir/Vazir-Thin.woff) format("woff");
+
+  src: url(./../Font/Vazir/Vazir-Thin.ttf) format("TrueType");
+
+  font-weight: 100;
 }

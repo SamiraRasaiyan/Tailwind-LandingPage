@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+font-family: "Vazir";
+    src: url(./../Font/Vazir/Vazir-Bold.woff2) format("woff2");
+    src: url(./../Font/Vazir/Vazir-Bold.woff) format("woff");
+    src: url(./../Font/Vazir/Vazir-Bold.ttf) format("TrueType");
+font-weight: bold;
+
+font-family: "Vazir";
+    src: url(./../Font/Vazir/Vazir.woff2) format("woff2");
+    src: url(./../Font/Vazir/Vazir.woff) format("woff");
+    src: url(./../Font/Vazir/Vazir.ttf) format("TrueType");
+font-weight: normal;
+
+font-family: "Vazir";
+    src: url(./../Font/Vazir/Vazir-black.woff2) format("woff2");
+    src: url(./../Font/Vazir/Vazir-black.woff) format("woff");
+    src: url(./../Font/Vazir/Vazir-black.ttf) format("TrueType");
+font-weight: 900;
+
+font-family: "Vazir";
+    src: url(./../Font/Vazir/Vazir-medium.woff2) format("woff2");
+    src: url(./../Font/Vazir/Vazir-medium.woff) format("woff");
+    src: url(./../Font/Vazir/Vazir-medium.ttf) format("TrueType");
+font-weight: 500;
+
+font-family: "Vazir";
+    src: url(./../Font/Vazir/Vazir-Light.woff2) format("woff2");
+    src: url(./../Font/Vazir/Vazir-Light.woff) format("woff");
+    src: url(./../Font/Vazir/Vazir-Light.ttf) format("TrueType");
+font-weight: 300;
+
+font-family: "Vazir";
+    src: url(./../Font/Vazir/Vazir-Thin.woff2) format("woff2");
+    src: url(./../Font/Vazir/Vazir-Thin.woff) format("woff");
+    src: url(./../Font/Vazir/Vazir-Thin.ttf) format("TrueType");
+font-weight: 100;
+}

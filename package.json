@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx tailwindcss -i ./assets/css/input.css -o ./src/css/output.css --watch",
+    "build": "npx tailwindcss -i ./assets/css/input.css -o ./src/css/output.css --minify"
+   },
   "keywords": [],
   "author": "",
   "license": "ISC",
